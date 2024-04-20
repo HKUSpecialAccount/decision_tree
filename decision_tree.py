@@ -9,7 +9,7 @@ from graphviz import Graph
 import matplotlib.pyplot as plt
 from sklearn.tree import plot_tree
 try:
-    data = pd.read_csv('src/Other_Languages/python/loan_approval_dataset.csv')
+    data = pd.read_csv('loan_approval_dataset.csv')
 except:
     print("file not found")
     sys.exit()
